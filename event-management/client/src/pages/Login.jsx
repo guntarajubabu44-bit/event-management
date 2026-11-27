@@ -15,7 +15,7 @@ function Login() {
   const navigate = useNavigate()
   const location = useLocation()
   const { loginWithOtp } = useAuth()
-  const [channel, setChannel] = useState('email')
+  const [channel, setChannel] = useState('phone')
   const [identifier, setIdentifier] = useState('')
   const [otp, setOtp] = useState('')
   const [step, setStep] = useState('request')

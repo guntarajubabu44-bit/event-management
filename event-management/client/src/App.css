@@ -552,6 +552,8 @@ body { color: #111827; background: #F8FAFC; font-family: Inter, ui-sans-serif, s
 .auth-page::before { background-image: linear-gradient(rgba(108,99,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(108,99,255,.045) 1px, transparent 1px); }
 .auth-card { border-color: rgba(255,255,255,.95); border-radius: 22px; background: rgba(255,255,255,.94); box-shadow: 0 24px 70px rgba(31,35,73,.12); }
 .auth-card label, .form-field label { color: #334155; }
+.auth-card .remember-option input { accent-color: #6C63FF; }
+.auth-card .auth-recovery-link { display: inline-block; margin-top: 2px; }
 .auth-card input, .auth-card select, .auth-card textarea, .event-form input, .event-form select, .event-form textarea, .detail-actions select, .attendee-toolbar input, .attendee-toolbar select, .settings-form input, .settings-form select, .settings-form textarea { border-color: #E2E8F0; border-radius: 11px; color: #111827; background: #fff; transition: border-color .18s ease, box-shadow .18s ease; }
 .auth-card input:focus, .auth-card select:focus, .event-form input:focus, .event-form select:focus, .event-form textarea:focus, .settings-form input:focus, .settings-form select:focus, .settings-form textarea:focus { border-color: #8E87FF; box-shadow: 0 0 0 4px rgba(108,99,255,.1); outline: 0; }
 .event-form, .settings-section, .booking-detail-card { border-color: #E7EAF1; border-radius: 17px; box-shadow: 0 8px 24px rgba(17,24,39,.04); }
